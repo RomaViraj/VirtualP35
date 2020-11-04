@@ -36,7 +36,7 @@ function draw() {
   text("Food remaining : "+foodS,170,200);
   textSize(13);
   text("Note: Press UP_ARROW Key To Feed Drago Milk!",130,10,300,20);
-
+}
 //Function to read values from DB
 function readStock(data){
   foodS=data.val();
